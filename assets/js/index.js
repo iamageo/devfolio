@@ -28,3 +28,6 @@ function linkAction() {
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+/* animação do scroll */
+
+
