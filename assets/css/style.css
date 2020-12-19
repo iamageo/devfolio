@@ -5,7 +5,7 @@
 }
 /* cores */
 :root {
-    --first-color: #4070f4;
+    --first-color: #6C63FF;
     --second-color: #0e2331
 }
 /* fonte e tipografia */
@@ -324,6 +324,10 @@ img{
 
 .skills__img {
     border-radius: .5rem;
+    width: 500px;
+}
+.row {
+    align-items: center;
 }
 
 /* -------- work --------*/
