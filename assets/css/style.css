@@ -479,6 +479,18 @@ img{
 }
 
 /* efeito de máquina de escrever */
+.titulo-maquina{
+    color:var(--first-color);
+}
+
+.titulo-maquina:after{
+ content: '|';
+ margin-left: 5px;
+ opacity: 1;
+ animation: pisca .7s infinite;
+
+}
+
 @keyframes pisca{
     0%, 100%{
         opacity: 1;

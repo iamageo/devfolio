@@ -36,11 +36,12 @@ const sr = ScrollReveal({
     reset: true
 })
 
-/* scroll home */
+/* scroll home 
 sr.reveal('.home__title', {})
 sr.reveal('.button', {delay: 200})
 sr.reveal('.home__img', {delay: 400})
 sr.reveal('.home__social-icon', {interval:200})
+*/
 
 /* scroll about */
 sr.reveal('.about__img', {})
@@ -58,3 +59,18 @@ sr.reveal('.work__img', {interval: 200})
 
 /* scroll contact */
 sr.reveal('.contact__input', {interval: 200})
+
+/* efeito de máquina de escrever */
+function typeWrite(elemento){
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = ' ';
+    textoArray.forEach(function(letra, i){   
+      
+    setTimeout(function(){
+        elemento.innerHTML += letra;
+    }, 75 * i)
+
+  });
+}
+const titulo = document.querySelector('.titulo-maquina');
+typeWrite(titulo);
