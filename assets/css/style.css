@@ -100,11 +100,11 @@ img{
 .section {
     padding-top: 3rem;
     padding-bottom: 2rem;
+
 }
 
 /* layout da página */
 .bd-grid {
-    max-width: 1024px;
     display: grid;
     grid-template-columns: 100%;
     grid-column-gap: 2rem;
@@ -196,7 +196,7 @@ img{
 .home {
     height: calc(100vh - 3rem);
     row-gap: 1rem;
-
+    margin: 1px 1px 1px 200px;
 }
 
 .home__data {
@@ -231,8 +231,8 @@ img{
 .home__img {
     position: absolute;
     right: 0;
-    bottom: 0;
     width: 295px;
+    margin: 1px 200px 50px 1px;
 }
 
 /* botão */
@@ -251,6 +251,7 @@ img{
 
 /* -------- about --------*/
 .about__container {
+
     row-gap: 2rem;
     text-align: center;
 }
@@ -401,7 +402,7 @@ img{
         margin-bottom: var(--mb-6);
     }
     .section-title::after {
-        width: 80px;
+        width: 100px;
         top: 3rem;
     }
     .nav{
@@ -432,7 +433,7 @@ img{
         padding-top: 0;
         padding-bottom: 2.5rem;
         flex-direction: row;
-        align-self: flex-end;
+        align-items: center;
     }
     .home__social-icon{
         margin-bottom: 0;
@@ -455,10 +456,11 @@ img{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         column-gap: 2rem;
+        width: 100%;
     }
    
     .contact__form{
-        width: 360px;
+        width: 300px;
     }
 
     .contact__container{
@@ -472,6 +474,7 @@ img{
     }
     .home__img{
         right: 10%;
+        
     }
 }
 
