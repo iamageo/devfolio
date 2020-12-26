@@ -14,3 +14,5 @@ A simple, responsive, single-page portfolio and resume for developers built with
 
 # and to finish.. 😭
 You can pick it up and use it however you want.
+
+Make with 💛 for Geovani Amaral
