@@ -6,6 +6,8 @@ A simple, responsive, single-page portfolio and resume for developers built with
 - CSS 3
 - JavaScript
 
+- The images were downloaded on the unDraw website.
+
 # Presentation  💻
 ![DevFolio página inicial](https://github.com/iamageo/devfolio/blob/main/img.PNG?raw=true)
 
@@ -15,4 +17,4 @@ A simple, responsive, single-page portfolio and resume for developers built with
 # and to finish.. 😭
 You can pick it up and use it however you want.
 
-Make with 💛 for Geovani Amaral
+Made with 💛 for Geovani Amaral
