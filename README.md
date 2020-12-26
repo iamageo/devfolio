@@ -7,4 +7,4 @@ A simple, responsive, single-page portfolio and resume for developers built with
 - JavaScript
 
 # Apresentação
-![DevFolio página inicial](https://github.com/[iamageo]/[devfolio]/blob/[main]/img.PNG?raw=true)
+![DevFolio página inicial](https://github.com/iamageo/devfolio/blob/main/img.PNG?raw=true)
